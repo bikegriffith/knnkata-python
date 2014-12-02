@@ -31,3 +31,6 @@ class TestKNNSolver(object):
 
     def test_single_nearest_neighbor(self):
         NT.assert_equals([(1, 2)], self.solver.closest_to((1, 1), 1))
+
+    def test_two_nearest_neighbors(self):
+        NT.assert_equals([(1, 1), (2, 3)], self.solver.closest_to((1, 2), 2))
