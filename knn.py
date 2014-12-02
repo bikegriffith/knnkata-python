@@ -27,7 +27,8 @@ class KNNSolver(object):
 
     def _dist(self, a, b):
         """ Basic Euclidean distance between a and b. """
-        # TODO: expand beyond 2D space
+        # TODO: expand beyond 2D space. Sum of squares still works, so
+        # this can be done in a fairly trivial list comprehension.
         x1, x2 = a[0], b[0]
         y1, y2 = a[1], b[1]
         return math.sqrt(math.pow(x2 - x1, 2) + math.pow(y2 - y1, 2))
