@@ -24,3 +24,9 @@ the solver is able to find the geometrically closest neighbors, for some request
     [(1, 1), (2, 3)]
 
 The algorithm I'm using here in the first pass of this exercise is naive.  It first iterates over all "points" - O(N) - and then sorts them - O(NlogN) - before grabbing the first k values off the head of the sorted list.  See TODOs for some thoughts on how to improve (and TODO for adding support for higher dimensional inputs)
+
+Running Tests
+-------------
+
+    pip install nose
+    nosetests
