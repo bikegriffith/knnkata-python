@@ -1,3 +1,5 @@
+[ ![Codeship Status for bikegriffith/knnkata-python](https://codeship.com/projects/a67f82f0-cfdc-0132-73af-7637bc41f5cd/status?branch=master)](https://codeship.com/projects/76823)
+
 knnkata-python
 ==============
 
